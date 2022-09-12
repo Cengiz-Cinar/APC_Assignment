@@ -1,6 +1,6 @@
 Feature: Brew Functionality
 
-  @api
+  @api @wip
   Scenario Outline: User should be able to see correct beer style infos
     When User search a valid "<Beer Styles>"
     Then Status code should be 200
