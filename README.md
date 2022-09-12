@@ -14,7 +14,8 @@ Install [Cucumber HTML report plugin](https://plugins.jenkins.io/cucumber-report
 mvn test
 ```
 ## Tags
-You can pass a custom tag using terminal. Available tags are **@wip**, **@api**.
+You can pass a custom tag using terminal to run tests based on the tag provided. Available tags 
+are **@wip**, **@api**.
 
 ```
 mvn test -Dcucumber.filter.tags="@wip"
