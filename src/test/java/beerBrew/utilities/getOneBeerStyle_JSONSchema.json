@@ -1,0 +1,154 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "default": {},
+        "title": "A Schema",
+        "required": [
+            "name",
+            "original_gravity_min",
+            "original_gravity_max",
+            "final_gravity_min",
+            "final_gravity_max",
+            "abv_min",
+            "abv_max",
+            "ibu_min",
+            "ibu_max",
+            "color_srm_min",
+            "color_srm_max",
+            "description"
+        ],
+        "properties": {
+            "name": {
+                "type": "string",
+                "default": "",
+                "title": "The name Schema",
+                "examples": [
+                    "Cream Ale"
+                ]
+            },
+            "original_gravity_min": {
+                "type": "number",
+                "default": 0.0,
+                "title": "The original_gravity_min Schema",
+                "examples": [
+                    1.042
+                ]
+            },
+            "original_gravity_max": {
+                "type": "number",
+                "default": 0.0,
+                "title": "The original_gravity_max Schema",
+                "examples": [
+                    1.055
+                ]
+            },
+            "final_gravity_min": {
+                "type": "number",
+                "default": 0.0,
+                "title": "The final_gravity_min Schema",
+                "examples": [
+                    1.006
+                ]
+            },
+            "final_gravity_max": {
+                "type": "number",
+                "default": 0.0,
+                "title": "The final_gravity_max Schema",
+                "examples": [
+                    1.012
+                ]
+            },
+            "abv_min": {
+                "type": "number",
+                "default": 0.0,
+                "title": "The abv_min Schema",
+                "examples": [
+                    4.2
+                ]
+            },
+            "abv_max": {
+                "type": "number",
+                "default": 0.0,
+                "title": "The abv_max Schema",
+                "examples": [
+                    5.6
+                ]
+            },
+            "ibu_min": {
+                "type": "integer",
+                "default": 0,
+                "title": "The ibu_min Schema",
+                "examples": [
+                    15
+                ]
+            },
+            "ibu_max": {
+                "type": "integer",
+                "default": 0,
+                "title": "The ibu_max Schema",
+                "examples": [
+                    20
+                ]
+            },
+            "color_srm_min": {
+                "type": "number",
+                "default": 0.0,
+                "title": "The color_srm_min Schema",
+                "examples": [
+                    2.5
+                ]
+            },
+            "color_srm_max": {
+                "type": "number",
+                "default": 0.0,
+                "title": "The color_srm_max Schema",
+                "examples": [
+                    5.0
+                ]
+            },
+            "description": {
+                "type": "string",
+                "default": "",
+                "title": "The description Schema",
+                "examples": [
+                    "A clean, well-attenuated, flavorful American “lawnmower” beer. Easily drinkable and refreshing, with more character than typical American lagers."
+                ]
+            }
+        },
+        "examples": [{
+            "name": "Cream Ale",
+            "original_gravity_min": 1.042,
+            "original_gravity_max": 1.055,
+            "final_gravity_min": 1.006,
+            "final_gravity_max": 1.012,
+            "abv_min": 4.2,
+            "abv_max": 5.6,
+            "ibu_min": 15,
+            "ibu_max": 20,
+            "color_srm_min": 2.5,
+            "color_srm_max": 5.0,
+            "description": "A clean, well-attenuated, flavorful American “lawnmower” beer. Easily drinkable and refreshing, with more character than typical American lagers."
+        }]
+    },
+    "examples": [
+        [{
+            "name": "Cream Ale",
+            "original_gravity_min": 1.042,
+            "original_gravity_max": 1.055,
+            "final_gravity_min": 1.006,
+            "final_gravity_max": 1.012,
+            "abv_min": 4.2,
+            "abv_max": 5.6,
+            "ibu_min": 15,
+            "ibu_max": 20,
+            "color_srm_min": 2.5,
+            "color_srm_max": 5.0,
+            "description": "A clean, well-attenuated, flavorful American “lawnmower” beer. Easily drinkable and refreshing, with more character than typical American lagers."
+        }]
+    ]
+}
