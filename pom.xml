@@ -87,6 +87,19 @@
             <version>1.18.20</version>
         </dependency>
 
+        <dependency>
+            <groupId>me.jvt.cucumber</groupId>
+            <artifactId>reporting-plugin</artifactId>
+            <version>7.2.0</version>
+        </dependency>
+
+        <!--If you want to get rid of SLF4J Failed to load message from the console -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.32</version>
+        </dependency>
+
     </dependencies>
 
 </project>

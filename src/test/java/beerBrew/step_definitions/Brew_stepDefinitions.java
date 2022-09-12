@@ -54,7 +54,7 @@ public class Brew_stepDefinitions {
 
     @Then("Response should match with json schema")
     public void response_should_match_json_schema() {
-        response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(new File("src/test/java/beerBrew/utilities/getOneBeerStyle_JSONSchema.json")));
+        response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(new File("src/test/resources/getOneBeerStyle_JSONSchema.json")));
     }
 
     @Then("status code should not be {int}")
